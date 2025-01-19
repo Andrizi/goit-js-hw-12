@@ -5,12 +5,12 @@ import 'izitoast/dist/css/iziToast.min.css';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
-const loaderEl = document.getElementById('loader');
+const loaderEl = document.querySelector('.loader');
 const searchFormEl = document.querySelector('.js-search-form');
 const galleryEl = document.querySelector('.js-gallery');
 
 const showLoader = () => {
-  loaderEl.style.display = 'flex';
+  loaderEl.style.display = 'block';
 };
 
 const hideLoader = () => {
